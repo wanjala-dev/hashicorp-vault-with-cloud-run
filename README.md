@@ -95,11 +95,8 @@ Make sure image is passing its efficiency and security scan steps.  While you ca
 ### Known Issues
 Even though I wanted t, but I unable to turn on [Binary Authorization](https://cloud.google.com/binary-authorization) as Cloud Build's attestation happens at the end of the pipeline run and not after a container image push to GAR.  [IssueTracker#283312435](https://issuetracker.google.com/issues/283312435)
 
-
-
-#output
-
-artifact_registry_id = "projects/bootstrap-397323/locations/us-central1/repositories/vault-docker-repository"
-bucket_name = "vault-backend-a6059bab"
-cloud_kms_keyring = "vault-server-a6059bab"
-service_account_email = "vault-server-sa@bootstrap-397323.iam.gserviceaccount.com"
+## output
+artifact_registry_id = "projects/seed-bootstrap/locations/us-central1/repositories/vault-docker-repository"
+bucket_name = "vault-backend-52da3b05"
+cloud_kms_keyring = "vault-server-52da3b05"
+service_account_email = "vault-server-sa@seed-bootstrap.iam.gserviceaccount.com"
